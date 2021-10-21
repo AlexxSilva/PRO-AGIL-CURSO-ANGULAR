@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "62185b25-f4a5-48a6-9f6d-43cec1a76936"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../ProAgil-App/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "../ProAgil-App/node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../ProAgil-App/node_modules/@fortawesome/fontawesome-free/js/all.js",
+              "../ProAgil-App/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
